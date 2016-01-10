@@ -1,0 +1,18 @@
+2016-01-05 19:21:28 INFO  MainClass:25 - ClassName:com.akursat.first.MainClass
+com.akursat.first.CustomException: another exception created as response to first exception
+	at com.akursat.first.ThirdClass.genAnotherException(ThirdClass.java:29)
+	at com.akursat.first.MainClass.main(MainClass.java:23)
+Caused by: java.lang.ArithmeticException: Arithmetic exception!
+	at com.akursat.first.FirstClass.genException(FirstClass.java:16)
+	at com.akursat.first.SecondClass.callException(SecondClass.java:18)
+	at com.akursat.first.ThirdClass.genAnotherException(ThirdClass.java:26)
+	... 1 more
+2016-01-07 17:55:54 INFO  MainClass:25 - ClassName:com.akursat.first.MainClass
+com.akursat.first.CustomException: another exception created as response to first exception
+	at com.akursat.first.ThirdClass.genAnotherException(ThirdClass.java:29)
+	at com.akursat.first.MainClass.main(MainClass.java:23)
+Caused by: java.lang.ArithmeticException: Arithmetic exception!
+	at com.akursat.first.FirstClass.genException(FirstClass.java:16)
+	at com.akursat.first.SecondClass.callException(SecondClass.java:18)
+	at com.akursat.first.ThirdClass.genAnotherException(ThirdClass.java:26)
+	... 1 more
